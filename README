@@ -1,0 +1,13 @@
+congrats on getting git working.
+git is awesome, and doesn't have much to learn. git lets you make local commits to your code base, then push a collection of those commits to the repo. It can do branching and all kinds of crazy shit, but you shouldn't ever have to use it.
+be liberal with your git status. it tells you good info on what you have modified without committing, and what commits you haven't pushed to the repo.
+
+git pull origin master
+  pulls from the origin repo on the master branch
+git status 
+  will check to see if you have updates
+git commit -m 'some effing message'
+  will make a local commit. commit often. it's best to segment accomplishments into commits so you can roll back changes if you fuck shit up. the only way you can really know which commits did what is if you label it with a proper effing message.
+git push origin master
+  will push up all commits on your local to the repo on the server.
+
